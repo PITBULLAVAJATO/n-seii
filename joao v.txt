@@ -1,0 +1,10 @@
+
+prod1 = int(input("Digite o valor do primeiro produto"))
+prod2 = int(input("Digite o valor do segundo produto"))
+prod3=int(input("Digite o valor do terceiro produto"))
+if (prod1<prod2):
+    print("O primeiro produto é mais barato")
+elif (prod2<prod3):
+    print("O segundo produto é mais barato")
+else:
+    print("O terceiro produto é mais barato")
